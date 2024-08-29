@@ -1,0 +1,16 @@
+Referat
+Når det kommer til digitale tal er der kun 2 tal, 1 og 0. 0 repræsentere alene ingenting, men hvis du sætter det efter 1 bliver 
+værdien lige pludselig 10 gange større. 1 tal om det så er 0 eller 1 er en bit. Hvis du så sætter 8 af dem sammen har du lige pludselig en byte.
+En byte kan repræsentere mange forskellige ting. Bytes aflæses fra højre til venstre i modsætning til normal. Måden man aflæser er at se hvilken
+af de 8 bits har et 0 og et 1. En af de specielle egenskaber er dog at den første bit repræsentere 1, den anden bit repræsentere 2, tjedje er 4,
+fjerde er 8, femte er 16, sjette er 32, syvne er 64 og den ottende er 128. På den måde kan en byte represæntere et tal alt ud fra om det der står et 0 eller 1
+ved de forskellige bits. På den måde kan man have en byte der siger 0010|0110, hvilket betyder 0+0+32+0+0+4+2+0, som er 38. Derudover er der noget som fx ASCII
+som er en tabel for at give de forskellige bytes betydning. Dette er for eksempel 32 som betyder mellemrum. Derfor ved man at hvis der står 0010|0000, står der
+mellemrum. Den maksimale værdi en byte kan repræsentere er 255, men alligevel kan man have 256 forskellige værdier. Heltal er Interger, Bogstav er Character og
+Decimaltal er Float.
+
+
+Opgave
+For at hyrden skal komme kl 3, skal vindue 1 og 2 være åben, eftersom 1+2=3
+For at hydeen skal komme kl 5, skal vindue 1 og 3 være åben, eftersom 1+4=5
+for at hyrden skal komme kl 10, skal vindue 2 og 4 være åben, eftersom 2+8=10
